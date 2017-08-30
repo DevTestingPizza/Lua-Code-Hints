@@ -544,26 +544,39 @@
                 <Param name='Char* Reason' />
             </Overload>
         </KeyWord>
-        <KeyWord name='TriggerClientEventInternal' func='yes'>
-            <Overload retVal='Void' descr='// 0x2f7a49e6  | The Backing Function For Triggerclientevent.'>
+        <KeyWord name='TriggerClientEvent' func='yes'>
+            <Overload retVal='Void' descr='// 0x2f7a49e6  | Citizenfx Api Set: Server.'>
                 <Param name='Char* Eventname' />
                 <Param name='Char* Eventtarget' />
                 <Param name='Char* Eventpayload' />
-                <Param name='Int Payloadlength' />
             </Overload>
         </KeyWord>
-        <KeyWord name='TriggerEventInternal' func='yes'>
-            <Overload retVal='Void' descr='// 0x91310870  | The Backing Function For Triggerevent.'>
+        <KeyWord name='TriggerEvent' func='yes'>
+            <Overload retVal='Void' descr='// 0x91310870  | Citizenfx Api Set: Shared.'>
                 <Param name='Char* Eventname' />
                 <Param name='Char* Eventpayload' />
-                <Param name='Int Payloadlength' />
             </Overload>
         </KeyWord>
-        <KeyWord name='TriggerServerEventInternal' func='yes'>
-            <Overload retVal='Void' descr='// 0x7fdd1128  | The Backing Function For Triggerserverevent.'>
+        <KeyWord name='TriggerServerEvent' func='yes'>
+            <Overload retVal='Void' descr='// 0x7fdd1128  | Citizenfx Api Set: Client.'>
                 <Param name='Char* Eventname' />
                 <Param name='Char* Eventpayload' />
-                <Param name='Int Payloadlength' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name='RegisterServerEvent' func='yes'>
+            <Overload retVal='Void' descr='// 0x7fdd1128  | Citizenfx Api Set: Server.'>
+                <Param name='Char* Eventname' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name='RegisterNetEvent' func='yes'>
+            <Overload retVal='Void' descr='// 0x7fdd1128  | Citizenfx Api Set: Client.'>
+                <Param name='Char* Eventname' />
+            </Overload>
+        </KeyWord>
+        <KeyWord name='AddEventHandler' func='yes'>
+            <Overload retVal='Void' descr='// 0x7fdd1128  | Citizenfx Api Set: Shared.'>
+                <Param name='Char* Eventname' />
+				<Param name='Func Handler' />
             </Overload>
         </KeyWord>
         <KeyWord name='VerifyPasswordHash' func='yes'>
@@ -10356,7 +10369,7 @@
             </Overload>
         </KeyWord>
         <KeyWord name='AddTextComponentSubstringPlayerName' func='yes'>
-            <Overload retVal='Void' descr='// 0x6c188be134e074aa 0x27a244d8 | â€¢ Description :'>
+            <Overload retVal='Void' descr='// 0x6c188be134e074aa 0x27a244d8 | • Description :'>
                 <Param name='Char* Text' />
             </Overload>
         </KeyWord>
@@ -23325,7 +23338,7 @@
             </Overload>
         </KeyWord>
         <KeyWord name='SetPedDensityMultiplierThisFrame' func='yes'>
-            <Overload retVal='Void' descr='// 0x95e3d6257b166cf2 0x039c82bb | â€¢ Usage'>
+            <Overload retVal='Void' descr='// 0x95e3d6257b166cf2 0x039c82bb | • Usage'>
                 <Param name='Float Multiplier' />
             </Overload>
         </KeyWord>
@@ -30538,7 +30551,7 @@
             </Overload>
         </KeyWord>
         <KeyWord name='SetVehicleDensityMultiplierThisFrame' func='yes'>
-            <Overload retVal='Void' descr='// 0x245a6883d966d537 0xf4187e51 | â€¢ Usage'>
+            <Overload retVal='Void' descr='// 0x245a6883d966d537 0xf4187e51 | • Usage'>
                 <Param name='Float Multiplier' />
             </Overload>
         </KeyWord>
