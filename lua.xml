@@ -212,10 +212,9 @@
                 <Param name='Char* Playersrc' />
             </Overload>
         </KeyWord>
-        <KeyWord name='GetPlayerIdentifier' func='yes'>
+        <KeyWord name='GetPlayerIdentifiers' func='yes'>
             <Overload retVal='Char*' descr='// 0x7302dbcf  | Citizenfx Api Set: Server'>
-                <Param name='Char* Playersrc' />
-                <Param name='Int Identifier' />
+                <Param name='PlayerSrc Player' />
             </Overload>
         </KeyWord>
         <KeyWord name='GetPlayerLastMsg' func='yes'>
