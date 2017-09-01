@@ -378,9 +378,9 @@
         </KeyWord>
         <KeyWord name='RegisterCommand' func='yes'>
             <Overload retVal='void' descr='// 0x5fa79b0f | CitizenFX API set: Shared'>
-                <Param name='char* Commandname' />
+                <Param name='char* commandName' />
                 <Param name='Func handler' />
-                <Param name='BOOL Restricted' />
+                <Param name='BOOL restricted' />
             </Overload>
         </KeyWord>
         <KeyWord name='RegisterFontFile' func='yes'>
