@@ -29274,7 +29274,7 @@
         </KeyWord>
         <KeyWord name='RequestVehicleAsset' func='yes'>
             <Overload retVal='void' descr='// 0x81a15811460fab3a 0x902b4f06'>
-                <Param name='hash Vehiclehash' />
+                <Param name='hash vehicleHash' />
                 <Param name='int Vehicleasset' />
             </Overload>
         </KeyWord>
@@ -31927,7 +31927,7 @@
         </KeyWord>
         <KeyWord name='ClearPopscheduleOverrideVehicleModel' func='yes'>
             <Overload retVal='void' descr='// 0x5c0de367aa0d911c 0x7a72a24e'>
-                <Param name='int Scheduleid' />
+                <Param name='int scheduleId' />
             </Overload>
         </KeyWord>
         <KeyWord name='GetHashOfMapAreaAtCoords' func='yes'>
@@ -31968,8 +31968,8 @@
         </KeyWord>
         <KeyWord name='OverridePopscheduleVehicleModel' func='yes'>
             <Overload retVal='void' descr='// 0x5f7d596bac2e7777 0x3f0a3680'>
-                <Param name='int Scheduleid' />
-                <Param name='hash Vehiclehash' />
+                <Param name='int scheduleId' />
+                <Param name='hash vehicleHash' />
             </Overload>
         </KeyWord>
         <KeyWord name='SetZoneenabled' func='yes'>
